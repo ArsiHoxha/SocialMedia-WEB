@@ -1,0 +1,203 @@
+
+.Profile-user {
+    max-width: auto;
+    margin: 0 auto;
+  }
+  
+  #banner {
+    width: 100%;
+    height: 70VH;
+    background-size: cover;
+  }
+  
+  .container-pare {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #profilePhoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .sectioni-pare {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sectioni-pare #menuButton {
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .intro {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .tittle-input{
+    display: flex;
+    
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .section-title{
+    font-size: 1.1rem;
+  }
+  .intro-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  .intro button{
+    margin-top: 2vh;
+  }
+  
+ .intro-2 input {
+    
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+  }
+  
+.section-title_Intro{
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro-posts{
+  display: flex;
+  flex-direction: row;
+  gap: 40vh;
+}
+
+.posts {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  /* Add more styles as needed */
+}
+
+.post-image {
+  width: 85vh;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  /* Add more styles as needed */
+}
+
+.description {
+  font-weight: bold;
+}
+
+.like-comments {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* Add more styles as needed */
+}
+
+.like, .comment {
+  cursor: pointer;
+  /* Add more styles as needed */
+}
+
+.popup-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 70vh;
+  padding: 2vh;
+}
+
+#changeBanner {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.file-upload-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.file-input-label {
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-left: -1vh;
+}
+
+.upload-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.upload-button:hover {
+  background-color: #45a049;
+}
+
+.theme-select {
+  margin-bottom: 10px;
+}
+
+#theme {
+  padding: 8px;
+}
+
+#theme-label {
+  font-size: 16px;
+  color: #333;
+}
+
+#posts-label {
+  font-size: 16px;
+  color: #333;
+}
+
+.posts-input {
+  padding: 8px;
+}
+
+.save-close-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-button,
+.close-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.save-button:hover,
+.close-button:hover {
+  background-color: #45a049;
+}
